@@ -1,0 +1,67 @@
+--- a/src-openmp/random_forest.cpp
++++ b/src-openmp/random_forest.cpp
+@@ -6,6 +6,7 @@
+ #include <assert.h>
+ #include <iostream>
+ #include <omp.h>
++#include <memory>
+ 
+ // Constructors:
+ RandomForest::RandomForest(
+@@ -121,6 +122,7 @@
+     /** Fit RandomForest with given parameters. */
+     this->trees_ = {};
+     int i;
++    std::vector<std::unique_ptr<DecisionTree>> fitted(this->num_trees_);
+     // Initialize vectors with seed values
+     std::vector<int> data_seed_vector;
+     std::vector<int> tree_seed_vector;
+@@ -146,9 +148,10 @@
+                 bootstrap, this->regression_, this->loss_, this->mtry_,
+                 this->max_height_, this->max_leaves_, this->min_obs_, this->max_prop_, tree_seed
+             );
+-            this->trees_.push_back(tree);
++            fitted[i].reset(new DecisionTree(tree));
+         }
+     }
++    for (const auto& tree : fitted) this->trees_.push_back(*tree);
+     this->fitted_ = true;
+ }
+ 
+--- a/src-openmp/decision_tree.cpp
++++ b/src-openmp/decision_tree.cpp
+@@ -271,10 +271,10 @@
+     // Shuffle if mtry_ < num_features_ else deterministic
+     if (this->mtry_ < this->num_features_) {
+         // Set changing random generator (arrow of time is inexorable!)
+-        srand((unsigned) this->seed_gen.new_seed());
++        std::mt19937 shuffle_engine((unsigned) this->seed_gen.new_seed());
+         // Shuffle it:
+         for (int i = 0; i < this->num_features_; i++){
+-            std::swap(shuf_inds[i], shuf_inds[i+(std::rand() % (this->num_features_-i))]);
++            std::swap(shuf_inds[i], shuf_inds[i+(shuffle_engine() % (this->num_features_-i))]);
+         }
+     }
+     // Can't pre-allocate since we don't know the number of unique values per column
+@@ -287,6 +287,10 @@
+         // Remove duplicates:
+         std::sort(col_vals.begin(), col_vals.end());
+         col_vals.erase(std::unique(col_vals.begin(), col_vals.end()), col_vals.end());
++        const size_t offset = losses.size();
++        const size_t count = col_vals.empty() ? 0 : col_vals.size()-1;
++        losses.resize(offset + count);
++        cols_splits.resize(offset + count);
+         int j;
+         #pragma omp parallel shared(losses, cols_splits, col) private(j)
+         {        
+@@ -300,8 +304,8 @@
+                 // equal_goes_left=true.
+                 std::vector<DataFrame> dataset_splits = dataframe.split(col, val, true);
+                 double loss = this->calculateSplitLoss(&dataset_splits[0], &dataset_splits[1]);
+-                losses.push_back(loss);
+-                cols_splits.push_back(std::make_pair(col, val));
++                losses[offset+j] = loss;
++                cols_splits[offset+j] = std::make_pair(col, val);
+             }
+         }
+     }

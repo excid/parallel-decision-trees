@@ -1,0 +1,248 @@
+nohup: ignoring input
+correctness_1 {'trees': 20, 'threads': 1, 'actual_threads': 1, 'seconds': 2.022641281, 'checksum': '4286452468204512625', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T15:57:53Z'}
+correctness_2 {'trees': 20, 'threads': 2, 'actual_threads': 2, 'seconds': 0.983583098, 'checksum': '4286452468204512625', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T15:57:55Z'}
+correctness_3 {'trees': 20, 'threads': 3, 'actual_threads': 3, 'seconds': 0.844332851, 'checksum': '4286452468204512625', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T15:57:56Z'}
+correctness_4 {'trees': 20, 'threads': 4, 'actual_threads': 4, 'seconds': 0.774289043, 'checksum': '4286452468204512625', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T15:57:57Z'}
+pilot_100 {'trees': 100, 'threads': 1, 'actual_threads': 1, 'seconds': 9.512745499, 'checksum': '3909726965334706230', 'test_accuracy': 0.707317073171, 'started_utc': '2026-10-09T15:57:58Z'}
+calibrate_250 {'trees': 250, 'threads': 1, 'actual_threads': 1, 'seconds': 23.770455559, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T15:58:08Z'}
+run_3_w2_p2 {'trees': 500, 'threads': 2, 'actual_threads': 2, 'seconds': 24.598771964, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T15:58:32Z'}
+PROGRESS 1/120
+run_2_w4_p4 {'trees': 1000, 'threads': 4, 'actual_threads': 4, 'seconds': 37.777023322, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T15:58:57Z'}
+PROGRESS 2/120
+run_1_w1_p3 {'trees': 250, 'threads': 3, 'actual_threads': 3, 'seconds': 10.564119219, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T15:59:36Z'}
+PROGRESS 3/120
+run_9_w2_p4 {'trees': 500, 'threads': 4, 'actual_threads': 4, 'seconds': 18.942835982, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T15:59:46Z'}
+PROGRESS 4/120
+run_8_w4_p3 {'trees': 1000, 'threads': 3, 'actual_threads': 3, 'seconds': 42.19299375, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:00:06Z'}
+PROGRESS 5/120
+run_8_w1_p3 {'trees': 250, 'threads': 3, 'actual_threads': 3, 'seconds': 10.560606907, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:00:49Z'}
+PROGRESS 6/120
+run_8_w1_p2 {'trees': 250, 'threads': 2, 'actual_threads': 2, 'seconds': 12.342719901, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:00:59Z'}
+PROGRESS 7/120
+run_2_w2_p4 {'trees': 500, 'threads': 4, 'actual_threads': 4, 'seconds': 18.866173203, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:01:12Z'}
+PROGRESS 8/120
+run_8_w4_p4 {'trees': 1000, 'threads': 4, 'actual_threads': 4, 'seconds': 37.832380096, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:01:31Z'}
+PROGRESS 9/120
+run_9_w4_p1 {'trees': 1000, 'threads': 1, 'actual_threads': 1, 'seconds': 96.122447821, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:02:10Z'}
+PROGRESS 10/120
+run_1_w2_p1 {'trees': 500, 'threads': 1, 'actual_threads': 1, 'seconds': 47.551574679, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:03:47Z'}
+PROGRESS 11/120
+run_7_w4_p1 {'trees': 1000, 'threads': 1, 'actual_threads': 1, 'seconds': 96.116133236, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:04:36Z'}
+PROGRESS 12/120
+run_10_w2_p2 {'trees': 500, 'threads': 2, 'actual_threads': 2, 'seconds': 24.435761853, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:06:14Z'}
+PROGRESS 13/120
+run_3_w4_p3 {'trees': 1000, 'threads': 3, 'actual_threads': 3, 'seconds': 43.499388247, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:06:38Z'}
+PROGRESS 14/120
+run_6_w4_p2 {'trees': 1000, 'threads': 2, 'actual_threads': 2, 'seconds': 49.213119539, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:07:23Z'}
+PROGRESS 15/120
+run_3_w1_p1 {'trees': 250, 'threads': 1, 'actual_threads': 1, 'seconds': 23.88812083, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:08:13Z'}
+PROGRESS 16/120
+run_5_w1_p2 {'trees': 250, 'threads': 2, 'actual_threads': 2, 'seconds': 12.394874722, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:08:37Z'}
+PROGRESS 17/120
+run_8_w2_p3 {'trees': 500, 'threads': 3, 'actual_threads': 3, 'seconds': 21.063166336, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:08:50Z'}
+PROGRESS 18/120
+run_5_w2_p1 {'trees': 500, 'threads': 1, 'actual_threads': 1, 'seconds': 47.474509626, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:09:11Z'}
+PROGRESS 19/120
+run_10_w4_p2 {'trees': 1000, 'threads': 2, 'actual_threads': 2, 'seconds': 49.386495108, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:09:59Z'}
+PROGRESS 20/120
+run_2_w2_p2 {'trees': 500, 'threads': 2, 'actual_threads': 2, 'seconds': 24.544380733, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:10:50Z'}
+PROGRESS 21/120
+run_4_w2_p3 {'trees': 500, 'threads': 3, 'actual_threads': 3, 'seconds': 20.93488342, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:11:15Z'}
+PROGRESS 22/120
+run_2_w4_p2 {'trees': 1000, 'threads': 2, 'actual_threads': 2, 'seconds': 49.338986635, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:11:36Z'}
+PROGRESS 23/120
+run_7_w4_p4 {'trees': 1000, 'threads': 4, 'actual_threads': 4, 'seconds': 37.907805041, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:12:26Z'}
+PROGRESS 24/120
+run_2_w4_p3 {'trees': 1000, 'threads': 3, 'actual_threads': 3, 'seconds': 42.188755385, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:13:05Z'}
+PROGRESS 25/120
+run_2_w4_p1 {'trees': 1000, 'threads': 1, 'actual_threads': 1, 'seconds': 96.660955116, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:13:48Z'}
+PROGRESS 26/120
+run_9_w4_p3 {'trees': 1000, 'threads': 3, 'actual_threads': 3, 'seconds': 42.133766238, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:15:26Z'}
+PROGRESS 27/120
+run_9_w4_p2 {'trees': 1000, 'threads': 2, 'actual_threads': 2, 'seconds': 49.021276968, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:16:09Z'}
+PROGRESS 28/120
+run_9_w1_p2 {'trees': 250, 'threads': 2, 'actual_threads': 2, 'seconds': 12.326751268, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:16:59Z'}
+PROGRESS 29/120
+run_10_w2_p1 {'trees': 500, 'threads': 1, 'actual_threads': 1, 'seconds': 47.571032226, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:17:11Z'}
+PROGRESS 30/120
+run_10_w4_p4 {'trees': 1000, 'threads': 4, 'actual_threads': 4, 'seconds': 37.810342477, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:18:00Z'}
+PROGRESS 31/120
+run_7_w2_p2 {'trees': 500, 'threads': 2, 'actual_threads': 2, 'seconds': 24.428800607, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:18:39Z'}
+PROGRESS 32/120
+run_10_w1_p4 {'trees': 250, 'threads': 4, 'actual_threads': 4, 'seconds': 9.5142156, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:19:03Z'}
+PROGRESS 33/120
+run_6_w1_p4 {'trees': 250, 'threads': 4, 'actual_threads': 4, 'seconds': 9.557925181, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:19:13Z'}
+PROGRESS 34/120
+run_1_w2_p3 {'trees': 500, 'threads': 3, 'actual_threads': 3, 'seconds': 21.584240317, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:19:23Z'}
+PROGRESS 35/120
+run_4_w2_p2 {'trees': 500, 'threads': 2, 'actual_threads': 2, 'seconds': 25.357806976, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:19:45Z'}
+PROGRESS 36/120
+run_6_w2_p4 {'trees': 500, 'threads': 4, 'actual_threads': 4, 'seconds': 19.110484433, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:20:11Z'}
+PROGRESS 37/120
+run_1_w4_p1 {'trees': 1000, 'threads': 1, 'actual_threads': 1, 'seconds': 98.656798151, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:20:30Z'}
+PROGRESS 38/120
+run_8_w4_p1 {'trees': 1000, 'threads': 1, 'actual_threads': 1, 'seconds': 102.139939429, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:22:11Z'}
+PROGRESS 39/120
+run_7_w4_p2 {'trees': 1000, 'threads': 2, 'actual_threads': 2, 'seconds': 57.750890669, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:23:55Z'}
+PROGRESS 40/120
+run_8_w2_p1 {'trees': 500, 'threads': 1, 'actual_threads': 1, 'seconds': 48.88686193, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:24:53Z'}
+PROGRESS 41/120
+run_6_w2_p3 {'trees': 500, 'threads': 3, 'actual_threads': 3, 'seconds': 23.605959226, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:25:43Z'}
+PROGRESS 42/120
+run_10_w1_p1 {'trees': 250, 'threads': 1, 'actual_threads': 1, 'seconds': 24.133807163, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:26:07Z'}
+PROGRESS 43/120
+run_9_w4_p4 {'trees': 1000, 'threads': 4, 'actual_threads': 4, 'seconds': 38.074315175, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:26:32Z'}
+PROGRESS 44/120
+run_7_w1_p3 {'trees': 250, 'threads': 3, 'actual_threads': 3, 'seconds': 10.816146308, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:27:11Z'}
+PROGRESS 45/120
+run_8_w1_p1 {'trees': 250, 'threads': 1, 'actual_threads': 1, 'seconds': 24.14405127, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:27:22Z'}
+PROGRESS 46/120
+run_2_w2_p1 {'trees': 500, 'threads': 1, 'actual_threads': 1, 'seconds': 47.953730991, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:27:46Z'}
+PROGRESS 47/120
+run_3_w4_p2 {'trees': 1000, 'threads': 2, 'actual_threads': 2, 'seconds': 51.209809766, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:28:35Z'}
+PROGRESS 48/120
+run_6_w1_p2 {'trees': 250, 'threads': 2, 'actual_threads': 2, 'seconds': 12.724919335, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:29:27Z'}
+PROGRESS 49/120
+run_6_w1_p1 {'trees': 250, 'threads': 1, 'actual_threads': 1, 'seconds': 24.182688966, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:29:40Z'}
+PROGRESS 50/120
+run_4_w1_p3 {'trees': 250, 'threads': 3, 'actual_threads': 3, 'seconds': 10.835311076, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:30:04Z'}
+PROGRESS 51/120
+run_10_w2_p3 {'trees': 500, 'threads': 3, 'actual_threads': 3, 'seconds': 21.628960529, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:30:16Z'}
+PROGRESS 52/120
+run_5_w1_p4 {'trees': 250, 'threads': 4, 'actual_threads': 4, 'seconds': 9.565899968, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:30:38Z'}
+PROGRESS 53/120
+run_10_w2_p4 {'trees': 500, 'threads': 4, 'actual_threads': 4, 'seconds': 18.744564122, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:30:47Z'}
+PROGRESS 54/120
+run_3_w1_p4 {'trees': 250, 'threads': 4, 'actual_threads': 4, 'seconds': 9.513798052, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:31:07Z'}
+PROGRESS 55/120
+run_1_w2_p4 {'trees': 500, 'threads': 4, 'actual_threads': 4, 'seconds': 18.900013464, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:31:16Z'}
+PROGRESS 56/120
+run_5_w2_p4 {'trees': 500, 'threads': 4, 'actual_threads': 4, 'seconds': 18.913832305, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:31:36Z'}
+PROGRESS 57/120
+run_3_w2_p4 {'trees': 500, 'threads': 4, 'actual_threads': 4, 'seconds': 18.80403218, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:31:55Z'}
+PROGRESS 58/120
+run_3_w4_p4 {'trees': 1000, 'threads': 4, 'actual_threads': 4, 'seconds': 37.955671971, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:32:14Z'}
+PROGRESS 59/120
+run_7_w1_p1 {'trees': 250, 'threads': 1, 'actual_threads': 1, 'seconds': 24.057847679, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:32:53Z'}
+PROGRESS 60/120
+run_8_w2_p2 {'trees': 500, 'threads': 2, 'actual_threads': 2, 'seconds': 25.377609672, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:33:17Z'}
+PROGRESS 61/120
+run_3_w1_p2 {'trees': 250, 'threads': 2, 'actual_threads': 2, 'seconds': 12.676232075, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:33:43Z'}
+PROGRESS 62/120
+run_1_w2_p2 {'trees': 500, 'threads': 2, 'actual_threads': 2, 'seconds': 25.186070367, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:33:56Z'}
+PROGRESS 63/120
+run_5_w2_p3 {'trees': 500, 'threads': 3, 'actual_threads': 3, 'seconds': 21.739866887, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:34:22Z'}
+PROGRESS 64/120
+run_5_w4_p4 {'trees': 1000, 'threads': 4, 'actual_threads': 4, 'seconds': 37.911286934, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:34:44Z'}
+PROGRESS 65/120
+run_4_w4_p3 {'trees': 1000, 'threads': 3, 'actual_threads': 3, 'seconds': 43.392022929, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:35:23Z'}
+PROGRESS 66/120
+run_4_w4_p4 {'trees': 1000, 'threads': 4, 'actual_threads': 4, 'seconds': 37.920411535, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:36:07Z'}
+PROGRESS 67/120
+run_1_w1_p4 {'trees': 250, 'threads': 4, 'actual_threads': 4, 'seconds': 9.497706301, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:36:46Z'}
+PROGRESS 68/120
+run_4_w1_p4 {'trees': 250, 'threads': 4, 'actual_threads': 4, 'seconds': 9.579910207, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:36:55Z'}
+PROGRESS 69/120
+run_2_w2_p3 {'trees': 500, 'threads': 3, 'actual_threads': 3, 'seconds': 21.541462552, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:37:05Z'}
+PROGRESS 70/120
+run_5_w4_p3 {'trees': 1000, 'threads': 3, 'actual_threads': 3, 'seconds': 43.467126142, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:37:27Z'}
+PROGRESS 71/120
+run_8_w2_p4 {'trees': 500, 'threads': 4, 'actual_threads': 4, 'seconds': 18.934935556, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:38:12Z'}
+PROGRESS 72/120
+run_4_w1_p2 {'trees': 250, 'threads': 2, 'actual_threads': 2, 'seconds': 12.760433539, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:38:31Z'}
+PROGRESS 73/120
+run_6_w4_p1 {'trees': 1000, 'threads': 1, 'actual_threads': 1, 'seconds': 96.622895892, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:38:44Z'}
+PROGRESS 74/120
+run_10_w1_p2 {'trees': 250, 'threads': 2, 'actual_threads': 2, 'seconds': 12.818259439, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:40:22Z'}
+PROGRESS 75/120
+run_1_w4_p4 {'trees': 1000, 'threads': 4, 'actual_threads': 4, 'seconds': 37.981492031, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:40:35Z'}
+PROGRESS 76/120
+run_4_w2_p4 {'trees': 500, 'threads': 4, 'actual_threads': 4, 'seconds': 18.899401316, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:41:14Z'}
+PROGRESS 77/120
+run_1_w4_p2 {'trees': 1000, 'threads': 2, 'actual_threads': 2, 'seconds': 51.129845429, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:41:33Z'}
+PROGRESS 78/120
+run_10_w4_p1 {'trees': 1000, 'threads': 1, 'actual_threads': 1, 'seconds': 97.105271763, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:42:25Z'}
+PROGRESS 79/120
+run_5_w1_p1 {'trees': 250, 'threads': 1, 'actual_threads': 1, 'seconds': 24.244623491, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:44:04Z'}
+PROGRESS 80/120
+run_4_w4_p2 {'trees': 1000, 'threads': 2, 'actual_threads': 2, 'seconds': 50.932545832, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:44:29Z'}
+PROGRESS 81/120
+run_4_w4_p1 {'trees': 1000, 'threads': 1, 'actual_threads': 1, 'seconds': 97.189524222, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:45:21Z'}
+PROGRESS 82/120
+run_3_w4_p1 {'trees': 1000, 'threads': 1, 'actual_threads': 1, 'seconds': 96.867903399, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:46:59Z'}
+PROGRESS 83/120
+run_5_w1_p3 {'trees': 250, 'threads': 3, 'actual_threads': 3, 'seconds': 10.938714361, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:48:38Z'}
+PROGRESS 84/120
+run_3_w1_p3 {'trees': 250, 'threads': 3, 'actual_threads': 3, 'seconds': 10.908321829, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:48:49Z'}
+PROGRESS 85/120
+run_10_w4_p3 {'trees': 1000, 'threads': 3, 'actual_threads': 3, 'seconds': 43.45989856, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:49:00Z'}
+PROGRESS 86/120
+run_9_w2_p2 {'trees': 500, 'threads': 2, 'actual_threads': 2, 'seconds': 25.395933448, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:49:44Z'}
+PROGRESS 87/120
+run_8_w1_p4 {'trees': 250, 'threads': 4, 'actual_threads': 4, 'seconds': 9.537043323, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:50:10Z'}
+PROGRESS 88/120
+run_1_w1_p2 {'trees': 250, 'threads': 2, 'actual_threads': 2, 'seconds': 12.8375464, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:50:20Z'}
+PROGRESS 89/120
+run_5_w4_p2 {'trees': 1000, 'threads': 2, 'actual_threads': 2, 'seconds': 51.043426898, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:50:33Z'}
+PROGRESS 90/120
+run_2_w1_p1 {'trees': 250, 'threads': 1, 'actual_threads': 1, 'seconds': 24.289136684, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:51:25Z'}
+PROGRESS 91/120
+run_4_w1_p1 {'trees': 250, 'threads': 1, 'actual_threads': 1, 'seconds': 24.186617336, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:51:50Z'}
+PROGRESS 92/120
+run_2_w1_p3 {'trees': 250, 'threads': 3, 'actual_threads': 3, 'seconds': 10.888302628, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:52:14Z'}
+PROGRESS 93/120
+run_1_w4_p3 {'trees': 1000, 'threads': 3, 'actual_threads': 3, 'seconds': 43.533755193, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:52:25Z'}
+PROGRESS 94/120
+run_7_w2_p3 {'trees': 500, 'threads': 3, 'actual_threads': 3, 'seconds': 21.652970224, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:53:10Z'}
+PROGRESS 95/120
+run_1_w1_p1 {'trees': 250, 'threads': 1, 'actual_threads': 1, 'seconds': 24.205132428, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:53:32Z'}
+PROGRESS 96/120
+run_3_w2_p3 {'trees': 500, 'threads': 3, 'actual_threads': 3, 'seconds': 21.585353791, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:53:56Z'}
+PROGRESS 97/120
+run_5_w4_p1 {'trees': 1000, 'threads': 1, 'actual_threads': 1, 'seconds': 97.016594188, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:54:18Z'}
+PROGRESS 98/120
+run_7_w1_p4 {'trees': 250, 'threads': 4, 'actual_threads': 4, 'seconds': 9.614013406, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:55:57Z'}
+PROGRESS 99/120
+run_9_w2_p3 {'trees': 500, 'threads': 3, 'actual_threads': 3, 'seconds': 21.580037912, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:56:07Z'}
+PROGRESS 100/120
+run_9_w1_p1 {'trees': 250, 'threads': 1, 'actual_threads': 1, 'seconds': 24.009758225, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:56:29Z'}
+PROGRESS 101/120
+run_6_w1_p3 {'trees': 250, 'threads': 3, 'actual_threads': 3, 'seconds': 10.884183346, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:56:53Z'}
+PROGRESS 102/120
+run_9_w1_p3 {'trees': 250, 'threads': 3, 'actual_threads': 3, 'seconds': 10.851085781, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:57:04Z'}
+PROGRESS 103/120
+run_9_w1_p4 {'trees': 250, 'threads': 4, 'actual_threads': 4, 'seconds': 9.525892324, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:57:15Z'}
+PROGRESS 104/120
+run_8_w4_p2 {'trees': 1000, 'threads': 2, 'actual_threads': 2, 'seconds': 51.113714479, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:57:25Z'}
+PROGRESS 105/120
+run_6_w4_p3 {'trees': 1000, 'threads': 3, 'actual_threads': 3, 'seconds': 43.540194572, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:58:17Z'}
+PROGRESS 106/120
+run_7_w1_p2 {'trees': 250, 'threads': 2, 'actual_threads': 2, 'seconds': 12.772353811, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T16:59:01Z'}
+PROGRESS 107/120
+run_9_w2_p1 {'trees': 500, 'threads': 1, 'actual_threads': 1, 'seconds': 47.949811183, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T16:59:14Z'}
+PROGRESS 108/120
+run_5_w2_p2 {'trees': 500, 'threads': 2, 'actual_threads': 2, 'seconds': 25.330618119, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T17:00:03Z'}
+PROGRESS 109/120
+run_6_w4_p4 {'trees': 1000, 'threads': 4, 'actual_threads': 4, 'seconds': 37.887827743, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T17:00:29Z'}
+PROGRESS 110/120
+run_7_w2_p4 {'trees': 500, 'threads': 4, 'actual_threads': 4, 'seconds': 18.793726877, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T17:01:08Z'}
+PROGRESS 111/120
+run_7_w2_p1 {'trees': 500, 'threads': 1, 'actual_threads': 1, 'seconds': 47.957752845, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T17:01:27Z'}
+PROGRESS 112/120
+run_3_w2_p1 {'trees': 500, 'threads': 1, 'actual_threads': 1, 'seconds': 48.003927553, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T17:02:16Z'}
+PROGRESS 113/120
+run_2_w1_p2 {'trees': 250, 'threads': 2, 'actual_threads': 2, 'seconds': 12.771345008, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T17:03:05Z'}
+PROGRESS 114/120
+run_10_w1_p3 {'trees': 250, 'threads': 3, 'actual_threads': 3, 'seconds': 10.881769262, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T17:03:18Z'}
+PROGRESS 115/120
+run_7_w4_p3 {'trees': 1000, 'threads': 3, 'actual_threads': 3, 'seconds': 43.450260749, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T17:03:29Z'}
+PROGRESS 116/120
+run_6_w2_p2 {'trees': 500, 'threads': 2, 'actual_threads': 2, 'seconds': 25.412690797, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T17:04:13Z'}
+PROGRESS 117/120
+run_6_w2_p1 {'trees': 500, 'threads': 1, 'actual_threads': 1, 'seconds': 48.054955039, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T17:04:39Z'}
+PROGRESS 118/120
+run_4_w2_p1 {'trees': 500, 'threads': 1, 'actual_threads': 1, 'seconds': 47.964681094, 'checksum': '2715264872769007732', 'test_accuracy': 0.756097560976, 'started_utc': '2026-10-09T17:05:28Z'}
+PROGRESS 119/120
+run_2_w1_p4 {'trees': 250, 'threads': 4, 'actual_threads': 4, 'seconds': 9.542476838, 'checksum': '12140850311657364041', 'test_accuracy': 0.780487804878, 'started_utc': '2026-10-09T17:06:16Z'}
+PROGRESS 120/120
+COMPLETE [{"workload": 1, "trees": 250, "threads": 1, "runs": 10, "mean_seconds": 24.1341784072, "stdev_seconds": 0.11939499201611911, "min_seconds": 23.88812083, "max_seconds": 24.289136684, "speedup": 1.0, "efficiency": 1.0}, {"workload": 1, "trees": 250, "threads": 2, "runs": 10, "mean_seconds": 12.642543549800001, "stdev_seconds": 0.2041568773189965, "min_seconds": 12.326751268, "max_seconds": 12.8375464, "speedup": 1.9089654160283112, "efficiency": 0.9544827080141556}, {"workload": 1, "trees": 250, "threads": 3, "runs": 10, "mean_seconds": 10.8128560717, "stdev_seconds": 0.13660935263469748, "min_seconds": 10.560606907, "max_seconds": 10.938714361, "speedup": 2.23198924013844, "efficiency": 0.74399641337948}, {"workload": 1, "trees": 250, "threads": 4, "runs": 10, "mean_seconds": 9.54488812, "stdev_seconds": 0.03524206719309288, "min_seconds": 9.497706301, "max_seconds": 9.614013406, "speedup": 2.528492540067615, "efficiency": 0.6321231350169038}, {"workload": 2, "trees": 500, "threads": 1, "runs": 10, "mean_seconds": 47.9368837166, "stdev_seconds": 0.39702415979503186, "min_seconds": 47.474509626, "max_seconds": 48.88686193, "speedup": 1.0, "efficiency": 1.0}, {"workload": 2, "trees": 500, "threads": 2, "runs": 10, "mean_seconds": 25.0068444536, "stdev_seconds": 0.44150754727401625, "min_seconds": 24.428800607, "max_seconds": 25.412690797, "speedup": 1.9169505295058922, "efficiency": 0.9584752647529461}, {"workload": 2, "trees": 500, "threads": 3, "runs": 10, "mean_seconds": 21.6916901194, "stdev_seconds": 0.7224854772846354, "min_seconds": 20.93488342, "max_seconds": 23.605959226, "speedup": 2.2099192572241093, "efficiency": 0.7366397524080365}, {"workload": 2, "trees": 500, "threads": 4, "runs": 10, "mean_seconds": 18.8909999438, "stdev_seconds": 0.10140630904342343, "min_seconds": 18.744564122, "max_seconds": 19.110484433, "speedup": 2.537551419152527, "efficiency": 0.6343878547881318}, {"workload": 4, "trees": 1000, "threads": 1, "runs": 10, "mean_seconds": 97.4498463217, "stdev_seconds": 1.795474062882841, "min_seconds": 96.116133236, "max_seconds": 102.139939429, "speedup": 1.0, "efficiency": 1.0}, {"workload": 4, "trees": 1000, "threads": 2, "runs": 10, "mean_seconds": 51.0140111323, "stdev_seconds": 2.5412914187983087, "min_seconds": 49.021276968, "max_seconds": 57.750890669, "speedup": 1.910256499316885, "efficiency": 0.9551282496584425}, {"workload": 4, "trees": 1000, "threads": 3, "runs": 10, "mean_seconds": 43.085816176499996, "stdev_seconds": 0.6323077065391814, "min_seconds": 42.133766238, "max_seconds": 43.540194572, "speedup": 2.261761641522562, "efficiency": 0.7539205471741873}, {"workload": 4, "trees": 1000, "threads": 4, "runs": 10, "mean_seconds": 37.9058556325, "stdev_seconds": 0.08709542003018188, "min_seconds": 37.777023322, "max_seconds": 38.074315175, "speedup": 2.570838850505929, "efficiency": 0.6427097126264822}]

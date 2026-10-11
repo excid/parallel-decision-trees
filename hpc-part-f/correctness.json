@@ -1,0 +1,38 @@
+[
+  {
+    "trees": 20,
+    "threads": 1,
+    "actual_threads": 1,
+    "seconds": 2.022641281,
+    "checksum": "4286452468204512625",
+    "test_accuracy": 0.780487804878,
+    "started_utc": "2026-10-09T15:57:53Z"
+  },
+  {
+    "trees": 20,
+    "threads": 2,
+    "actual_threads": 2,
+    "seconds": 0.983583098,
+    "checksum": "4286452468204512625",
+    "test_accuracy": 0.780487804878,
+    "started_utc": "2026-10-09T15:57:55Z"
+  },
+  {
+    "trees": 20,
+    "threads": 3,
+    "actual_threads": 3,
+    "seconds": 0.844332851,
+    "checksum": "4286452468204512625",
+    "test_accuracy": 0.780487804878,
+    "started_utc": "2026-10-09T15:57:56Z"
+  },
+  {
+    "trees": 20,
+    "threads": 4,
+    "actual_threads": 4,
+    "seconds": 0.774289043,
+    "checksum": "4286452468204512625",
+    "test_accuracy": 0.780487804878,
+    "started_utc": "2026-10-09T15:57:57Z"
+  }
+]

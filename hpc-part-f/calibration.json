@@ -1,0 +1,23 @@
+{
+  "base_trees": 250,
+  "pilot": {
+    "trees": 100,
+    "threads": 1,
+    "actual_threads": 1,
+    "seconds": 9.512745499,
+    "checksum": "3909726965334706230",
+    "test_accuracy": 0.707317073171,
+    "started_utc": "2026-10-09T15:57:58Z"
+  },
+  "runs": [
+    {
+      "trees": 250,
+      "threads": 1,
+      "actual_threads": 1,
+      "seconds": 23.770455559,
+      "checksum": "12140850311657364041",
+      "test_accuracy": 0.780487804878,
+      "started_utc": "2026-10-09T15:58:08Z"
+    }
+  ]
+}
